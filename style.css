@@ -17,11 +17,10 @@
 }
 .car_container .first{
  background: palevioletred;
- width: 60px;
- height: 30px;
- border-top-right-radius: 20%;
- border-top-left-radius: 70%;
- margin-right:70px;
+ width: 18px;
+ height: 25px;
+ border-top-right-radius: 100%;
+ margin-right:10px;
 }
 
 .last{
@@ -31,7 +30,7 @@
  height: 40px;
  position: relative;
  z-index: 2;
- background-color: powderblue;
+ background-color: palevioletred;
 }
 .last::before{
  content: '';
